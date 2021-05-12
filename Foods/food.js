@@ -4,17 +4,17 @@ let i = 1
 
 setInterval(() => {
     i++
-
-    const icon = document.querySelector('.section-1-icons.change');
+// 之前跑不出來是因為.change前面沒有空白鍵
+    const icon = document.querySelector('.section-1-icons .change');
 
     icon.classList.remove('change');
-    
-    icon.nextElementSibling.classList.add('.change');
+    // 這一行怎麼跑出的
+    // icon.nextElementSibling.classList.add('.change')
     if (i > icons.length) {
-        icons[0].classList.add('change');
-        i = 1;
+        icons[0].classList.add('change')
+        i = 1
     } else {
-        icon.nextElementSibling.classList.add('change');
+        icon.nextElementSibling.classList.add('change')
     }
 
-}, 1000);
+}, 4000);
