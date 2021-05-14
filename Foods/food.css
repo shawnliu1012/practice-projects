@@ -43,7 +43,7 @@ html {
 
 .section-1-icons i {
     /*教學網站(第2-5節 4:00左右)顯示35rem，但在我電腦顯示上會出現因圖案太大而多出的空白，目前調整方式是縮小，可能需要再看一下是什麼原因*/
-    font-size: 25rem;
+    font-size: 15rem;
     color: #a79a2d;
     position: absolute;
     transform: translate(-50%, -50%)scale(0);
@@ -59,3 +59,4 @@ html {
 }
 
 /*End of Section 1*/
+
