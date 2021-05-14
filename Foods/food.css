@@ -15,6 +15,16 @@ html {
     font-size: 62.5%;
 }
 
+.section-heading {
+    font-size: 12rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.5rem;
+    text-shadow: 0.3rem 0.3rem 0.3rem #000;
+}
+
 /*End of Common Styles*/
 
 /*Section 1*/
@@ -29,15 +39,7 @@ html {
     justify-content: space-evenly;
 }
 
-.section-heading {
-    font-size: 12rem;
-    font-weight: 900;
-    color: #fff;
-    text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 0.5rem;
-    text-shadow: 0.3rem 0.3rem 0.3rem #000;
-}
+
 
 .section-1-icons i {
     /*教學網站(第2-5節 4:00左右)顯示35rem，但在我電腦顯示上會出現因圖案太大而多出的空白，目前調整方式是縮小，可能需要再看一下是什麼原因*/
