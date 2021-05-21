@@ -44,7 +44,7 @@ body {
 
 .section-1-icons i {
     /*教學網站(第2-5節 4:00左右)顯示35rem，但在我電腦顯示上會出現因圖案太大而多出的空白，目前調整方式是縮小，可能需要再看一下是什麼原因*/
-    font-size: 12rem;
+    font-size: 10rem;
     color: #a79a2d;
     position: absolute;
     transform: translate(-50%, -50%)scale(0);
@@ -79,20 +79,61 @@ body {
     /* 自己加的 */
     /* margin: auto; */
     display: flex;
-    /* justify-content: space-between; */
+    /* 將justify-content: space-evenly修改 */
     justify-content: space-around;
     /* 自己加的 */
     /* flex-wrap: wrap; */
 }
 
 .card {
-    /* width: 450px; */
+    /* width: 30rem; */
     margin: 10px;
     background-color: #a79a2d;
+    padding: 10px 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1rem 1rem 1rem #000;
+}
+
+.card::before{
+    content: "";
+    height: 100%;
+    width: 1rem;
+    background-color: #817824;
+    
 }
 
 .card-img {
     width: 100%;
+    /* 自己加了min-width為了看起來有RWD的感覺 */
+    min-width: 280px;
+    margin:auto;
+    
 }
 
+.card-name {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #111;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 0.15rem 0.15rem 0.15rem #000;
+}
+
+.card-btn {
+    width: 70%;
+    padding: 2px;
+    font-weight: 800;
+    border: 1px solid #fff;
+    background-color: #111;
+    color: #fff;
+    border-radius: 10px;
+    letter-spacing: 0.2rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    box-shadow: -.2rem -.2rem -.2rem #000;
 /* End of section 2 */
