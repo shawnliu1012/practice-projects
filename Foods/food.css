@@ -102,7 +102,7 @@ body {
     height: 100%;
     width: 1rem;
     background-color: #817824;
-    
+
 }
 
 .card-img {
@@ -136,4 +136,5 @@ body {
     text-transform: capitalize;
     cursor: pointer;
     box-shadow: -.2rem -.2rem -.2rem #000;
-/* End of section 2 */
+}
+/*  End of section 2  */
