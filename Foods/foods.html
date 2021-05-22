@@ -5,18 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Foods</title>
-  <script src="./jquery-3.5.1.js"></script>
   <link rel="stylesheet" href="food.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 </head>
 
 <body>
   <div class="container">
-    <!-- Section 1 -->
+    <!--section 1-->
     <section class="section-1">
-      <h1 class="section-heading">variety of foods</h1>
+      <h1 class="section-heading">
+        Variety of Foods
+      </h1>
       <div class="section-1-icons">
-        <i class="change fas fa-egg"></i>
+        <!-- 影片2-5節裡 6:00處，為何egg要再多加change -->
+        <!-- 註一，為後續class命名問題，取一個較顯著不同凸顯與其他icon命名形式不一樣(其實取fa-egg也可以)，方便使用scale(1)-->
+        <i class="fas fa-egg change"></i>
         <i class="fas fa-stroopwafel"></i>
         <i class="fas fa-cheese"></i>
         <i class="fas fa-hotdog"></i>
@@ -28,30 +31,30 @@
         <i class="fas fa-seedling"></i>
       </div>
     </section>
-    <!-- End Section 1 -->
+    <!--End of section 1-->
 
-    <!-- Section 2 -->
+    <!-- section 2 -->
     <section class="section-2">
       <h1 class="section-heading">popular meals</h1>
       <div class="cards-container">
         <div class="card">
-          <img src="images/card-img-1.png" class="card-img" />
+          <img src="images/card-img-1.png" class="card-img">
           <h3 class="card-name">Fish</h3>
           <button class="card-btn">Order now</button>
         </div>
         <div class="card">
-          <img src="images/card-img-2.png" class="card-img" />
+          <img src="images/card-img-2.png" class="card-img">
           <h3 class="card-name">Cake</h3>
           <button class="card-btn">Order now</button>
         </div>
         <div class="card">
-          <img src="images/card-img-3.png" class="card-img" />
+          <img src="images/card-img-3.png" class="card-img">
           <h3 class="card-name">Lobster</h3>
           <button class="card-btn">Order now</button>
         </div>
       </div>
     </section>
-    <!-- End of Section 2 -->
+    <!-- End of section 2 -->
   </div>
   <script src="food.js"></script>
 </body>
